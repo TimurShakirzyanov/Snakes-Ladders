@@ -1,0 +1,37 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-image: url("Teletubbyland_29.webp");
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+#kubik{
+    width: 50px;
+    transition: 3s;
+}
+#game{
+    width: 100%;
+    max-width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+#info{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+#map{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+h1{
+    font-family: "Chewy", system-ui;
+}
+#player, #player2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    transition: 0.2s; 
+}
